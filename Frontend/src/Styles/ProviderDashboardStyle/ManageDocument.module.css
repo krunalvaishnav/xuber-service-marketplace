@@ -1,0 +1,145 @@
+.fullComponent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.mainDiv {
+  padding: 150px 0px;
+  gap: 20px;
+  align-items: top;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.offCanvas {
+  display: none;
+  flex: 1;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+@media screen and (max-width: 767px) {
+  .dashboard {
+    display: none;
+  }
+  .mainDiv {
+    padding: 70px 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .offCanvas {
+    display: block;
+    padding-top: 40px;
+  }
+  .tableContainer {
+    /* width: 100%; */
+    /* padding: ; */
+    overflow-x: auto;
+  }
+
+  .table {
+    font-size: 13px;
+  }
+}
+
+.actionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.chooseFileInput {
+  width: 100%;
+  padding: 4px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.viewButton {
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* border-radius: 4px; */
+}
+
+.viewButton {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.uploadBtnContainer button {
+  padding: 10px;
+  color: #ffffff;
+  background: #17a2b8;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  /* margin-right: 5px; */
+  /* float: right; */
+  /* margin-bottom: 10px; */
+}
+.uploadBtnContainer button svg {
+  margin-right: 8px;
+}
+
+.ASSESSING {
+  background-color: #ffa41c;
+  width: 126px;
+  padding: 6px 18px 4px 15px;
+  color: #ffffff;
+  /* font-weight: bold;  */
+  text-align: center;
+  /* border-radius: 4px;  */
+}
+.ASSESSING svg {
+  margin-right: 5px;
+}
+.ACTIVE svg {
+  margin-right: 5px;
+}
+
+.ACTIVE {
+  background-color: #37b38b;
+  /* background-color: #ffa41c; */
+  width: 126px;
+  padding: 6px 18px 4px 15px;
+  color: #ffffff;
+  /* font-weight: bold;  */
+  text-align: center;
+  /* border-radius: 4px;  */
+}
+
+.naStatus{
+  background-color: #dc3545;
+  /* background-color: #ffa41c; */
+  /* width: 100px; */
+  padding: 6px 13px 6px 13px;
+  color: #ffffff;
+  /* font-weight: bold;  */
+  text-align: center;
+
+}
+
+@media screen and (max-width: 1138px) {
+  .tableContainer {
+    overflow-x: auto;
+  }
+
+  .table {
+    min-width: 700px;
+  }
+}

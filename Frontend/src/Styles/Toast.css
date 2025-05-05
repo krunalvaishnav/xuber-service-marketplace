@@ -1,0 +1,7 @@
+.custom-toast-container .Toastify__toast {
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  z-index: 99999999;
+   
+}

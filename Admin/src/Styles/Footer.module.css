@@ -1,0 +1,24 @@
+.copyright {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* background: #1A1F36; */
+  background: linear-gradient(135deg,  #293041, #272d44) ;
+    position: relative;
+    bottom: 0;
+    left: 240;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  

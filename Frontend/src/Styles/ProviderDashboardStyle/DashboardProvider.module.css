@@ -1,0 +1,142 @@
+/* .active {
+  text-decoration: none;
+}
+.div_border {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid #e2e2e2;
+  padding-left: 10px;
+} */
+
+.dashboard_container {
+  max-height: 600px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avater img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.nameRatingStatus {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.nameRatingStatus p {
+  font-size: 20px;
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+.statusDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.status {
+  background-color: #ebebeb;
+  padding: 5px 12px;
+  border: 1px solid #acabab;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  min-width: 80px;
+  transition: all 0.3s ease;
+}
+
+.status:hover {
+  background-color: #d6d6d6;
+  border-color: #999;
+}
+
+.approved {
+  background-color: #dcfce7;
+  padding: 2px 8px 2px 8px;
+  border-radius: 10px;
+  color: #166556;
+  border: 1px solid #86efac;
+}
+
+.banned {
+  background-color: #fcdcdc;
+  padding: 2px 8px 2px 8px;
+  border-radius: 7px;
+  color: #7a1818;
+  border: 1px solid #ef8686;
+}
+
+@media (max-width: 1032px) and (min-width: 768px) {
+  .avater img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .status {
+    font-size: 14px;
+  }
+  .nameRatingStatus p {
+    letter-spacing: 0px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .avater img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .nameRatingStatus p {
+    font-size: 18px;
+  }
+
+  .status {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .rating .fa-star {
+    font-size: 20px;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+.dashboard_navigation {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+}
+
+.div_border {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid #e2e2e2;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.div_border:hover {
+  /* font-weight: 500; */
+  /* background-color: #37b38b; */
+  font-size: 17px;
+}

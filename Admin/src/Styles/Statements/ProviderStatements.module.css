@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    height: 100vh;
+    /* width: 100%; */
+    overflow: hidden;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #e8ebf0;
+    /* padding: 20px; */
+    overflow: auto;
+  }
+  .addDiv {
+    padding: 20px;
+  }
+  .add h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* padding-bottom: 20px; */
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .add {
+    width: 100%;
+    padding: 9.75px;
+    background: rgb(255, 255, 255);
+    font-size: 14px;
+    overflow: auto;
+    margin-top: 65px;
+  }
+  .footer {
+    margin-top: auto;
+  }
+  
+
+
+  .tableDiv {
+    margin-top: 15px;
+    /* padding: 20px; */
+    font-size: 14px;
+    overflow: auto;
+    width: 100%;
+  
+    /* padding: 9.75px; */
+    /* margin-top: 65px; */
+  }
+  .tableDiv table thead th {
+    background-color: #f0f0f0;
+  }
+  .tableDiv table {
+    border-collapse: collapse;
+  }
+  
+
+
+
+  .detailsButton {
+    color: white;
+    padding: 4px 6px;
+    cursor: pointer;
+    background: #17a2b8;
+  }
+  .detailsButton svg{
+    margin-right: 5px;
+  }
+  
+  .detailsButton:hover{
+    background: #2890a1;
+  }
+
+
+  .actionButton {
+    display: flex;
+    gap: 10px;
+    width: 130px;
+  }
+  .actionButton button{
+    border: none;
+    /* background: none; */
+  }

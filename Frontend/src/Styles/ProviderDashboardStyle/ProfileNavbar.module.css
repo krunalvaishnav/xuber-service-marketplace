@@ -1,0 +1,32 @@
+.nav {
+  display: block;
+  background-color: #f7f7f7;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+}
+.mainDiv {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .mainDiv {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1161px) {
+  .mainDiv {
+    font-size: 13px;
+  }
+}
+@media (max-width: 960px) {
+  .mainDiv {
+    font-size: 11px;
+  }
+}
+@media (max-width: 840px) {
+  .mainDiv {
+    font-size: 11px;
+  }
+}
+

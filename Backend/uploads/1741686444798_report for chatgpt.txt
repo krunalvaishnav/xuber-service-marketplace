@@ -1,0 +1,99 @@
+(20/01 - 24/01)
+Day-wise Work Summary:
+20/01: Set up a demo project for CRUD operations and created the product UI using EJS.
+21/01: Implemented functionality to add an item, display it on the UI, and upload an image along with the item using multer.
+22/01: Developed edit and delete functionality for items, ensuring updates in the MongoDB database, including image updates.
+23/01: Integrated jQuery DataTable for better UI item listing and learned jQuery and SQL CRUD queries.
+24/01: Migrated the database from MongoDB to MySQL and implemented the add item functionality using MySQL.
+
+20/01: Set up CRUD demo & Product UI with EJS
+21/01: Add item functionality with image upload (Multer)
+22/01: Edit & delete items with image updates (MongoDB)
+23/01: Integrated jQuery DataTable & learned jQuery/SQL CRUD
+24/01: Migrated from MongoDB to MySQL & implemented add item
+
+Summary Paragraph:
+During this five-day internship period, I worked on setting up a demo project with CRUD operations and designed the product UI using EJS. I implemented item addition functionality, ensuring that items, along with their images, were displayed correctly. Further enhancements included enabling edit and delete operations, updating the MongoDB database, and modifying images as needed. To improve data presentation, I integrated jQuery DataTable for efficient item listing and also took the opportunity to learn jQuery and SQL CRUD queries. Finally, I migrated the database from MongoDB to MySQL, successfully implementing the item addition functionality in MySQL. This experience strengthened my skills in database management, UI design, and integrating front-end and back-end technologies.
+
+(27/01 - 31/01)
+Day-wise Work Summary:
+27/01: Implemented edit and delete functionality for items.
+28/01: Started working on a full-stack project named "Xuber," set up the project structure, created necessary folders, and configured the existing database on the local system while understanding its schema.
+29/01: Designed the UI for the user-side signup page and created the main dashboard interface.
+30/01: Developed the sign-in functionality for the user dashboard and implemented both sign-in and sign-up features for the provider dashboard.
+31/01: Worked on additional tasks related to Webtown and PhpMyAdmin, including backing up company websites (15 in total), updating WordPress versions, and upgrading PHP versions.
+
+
+27/01: Implemented edit & delete functionality for items
+28/01: Started "Xuber" project, set up structure & configured database
+29/01: Designed user signup page & main dashboard UI
+30/01: Developed sign-in/signup for user & provider dashboards
+31/01: self learning
+
+
+
+Summary Paragraph:
+In this week of my internship, I focused on both project development and additional company-related tasks. Initially, I refined the CRUD functionality by implementing edit and delete operations. I then started working on a new full-stack project, "Xuber," where I set up the project structure and configured an existing database on my local system. Following this, I designed the user-side signup UI and developed the main dashboard. The next step involved implementing sign-in for users and both sign-in and sign-up functionalities for providers. Apart from project work, I also contributed to website maintenance tasks, including backing up 15 company websites using Webtown and PhpMyAdmin, updating WordPress installations, and upgrading PHP versions. This week significantly enhanced my understanding of full-stack development, database integration, and website management.
+
+
+(03/02 - 07/02)
+Day-wise Work Summary:
+03/02: Developed the backend for the Sign-in and Sign-up pages of the xuber project for both user and provider sides.
+04/02: Implemented the Forgot Password functionality for both users and providers using Nodemailer to send password reset emails and update the database accordingly.
+05/02: Worked on the user dashboard, profile page and edit information functionality and implementing the Change Password feature, designing the Navbar, and creating the Dashboard page structure.
+06/02: Fetched data for the user dashboard, applied styling, and integrated a map and location search API to allow users to select their service location.
+07/02: Developed the "Request a Service" feature on the user dashboard to enable users to place service requests.
+
+
+03/02: Developed backend for Sign-in/Sign-up (User & Provider)
+04/02: Implemented Forgot Password with Nodemailer
+05/02: Built user dashboard, profile edit, Change Password & Navbar
+06/02: Fetched dashboard data, styled UI & integrated location search API
+07/02: Developed "Request a Service" feature for user dashboard
+
+
+
+Summary Paragraph:
+During this internship week, I focused on backend development and dashboard functionalities for the UrbanClap project. I built the backend for the Sign-in and Sign-up pages for both users and providers. Additionally, I implemented the Forgot Password functionality using Nodemailer to send password reset emails and update the database. Moving forward, I enhanced the user dashboard by adding a Change Password feature, designing the Navbar, and structuring the Dashboard page. To improve user experience, I worked on fetching and displaying data on the dashboard while integrating a map and location search API for selecting service locations. Lastly, I developed the "Request a Service" functionality, allowing users to place service requests directly from their dashboard. This week helped me strengthen my backend development skills and gain experience in API integration.
+
+
+(10/02 - 14/02)
+Day-wise Work Summary:
+10/02: Continued working on the "Request a Service" functionality for the user dashboard.
+11/02: Developed the "My Requests" page by fetching service request data, implementing filters for user requests, and creating a request detail modal that opens on the "View" button click.
+12/02: Enhanced the "My Requests" page by adding a cancel request function, improving the page styling (CSS), and converting the normal table into a DataTable format for better usability.
+13/02: Further improved the "My Requests" page by refining the DataTable format and integrating a rating system, allowing users to rate their service experience.
+14/02: Finalized the DataTable integration on the "My Requests" page for the user side and worked on the backend to fetch provider data.
+
+
+
+10/02: Continued "Request a Service" functionality
+11/02: Developed "My Requests" page with filters & request detail modal
+12/02: Added cancel request, improved styling & converted table to DataTable
+13/02: Refined DataTable & integrated service rating system
+14/02: Finalized DataTable for "My Requests" & fetched provider data backend
+
+
+
+Summary Paragraph:
+This week, I focused on refining and expanding the user dashboard functionalities, particularly the "My Requests" section. I started by enhancing the "Request a Service" feature and then developed the "My Requests" page, where I fetched service request data, added filters, and implemented a detailed request view modal. I further improved the page by adding a cancel request function, styling the page, and converting the request list into a DataTable format for better user experience. To enhance user engagement, I integrated a rating system, allowing users to review their service experiences. Finally, I worked on fetching provider data from the backend, ensuring smooth data retrieval for future implementations. This week helped me strengthen my front-end and back-end development skills while improving my ability to work with data visualization and user interactions.
+
+
+ (17/02 - 21/02)
+Day-wise Work Summary:
+17/02: Implemented the Navbar, Provider Profile Page with edit functionality, and designed the Side Dashboard for the Provider Panel.
+18/02: Added features for updating location, changing passwords, and implementing an online/offline status function in the Provider Panel.
+19/02: Designed the Partner Earnings UI and completed the Provider Panel dashboard with necessary functionalities.
+20/02: Optimized existing code by making modifications to improve performance and efficiency.
+21/02: Set up the Admin Panel and implemented Sign-In & Sign-Up functionality for admin users.
+
+17/02: Implemented Navbar, Provider Profile with edit & Side Dashboard
+18/02: Added location update, password change & online/offline status
+19/02: Designed Partner Earnings UI & completed Provider Panel dashboard
+20/02: Optimized code for better performance & efficiency
+21/02: Set up Admin Panel & implemented Sign-In/Sign-Up for admins
+
+
+
+Summary Paragraph:
+This week, I focused on enhancing the Provider Panel and setting up the Admin Panel. I started by implementing the Navbar, Profile Page with edit functionality, and Side Dashboard for providers. Next, I developed features for updating location, changing passwords, and managing online/offline status. I then designed the Partner Earnings UI and completed the overall Provider Dashboard. To improve the system’s efficiency, I optimized the existing code, ensuring better performance. Towards the end of the week, I successfully set up the Admin Panel and implemented Sign-In & Sign-Up functionality. This week helped me strengthen my full-stack development skills, particularly in optimizing backend logic and improving UI/UX for better user experience.

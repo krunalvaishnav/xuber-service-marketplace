@@ -1,0 +1,264 @@
+.fullComponent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.mainDiv {
+  padding: 150px 0px;
+  gap: 20px;
+  align-items: top;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard {
+    display: none;
+  }
+  .mainDiv {
+    padding: 70px 20px;
+    font-size: 12px;
+  }
+  .tabsContainer {
+    flex-direction: column;
+    font-size: 16px;
+  }
+  .tab {
+    /* padding: 10px 10px 10px 10px; */
+    margin-top: 10px;
+    font-size: 13px;
+    /* margin-bottom: 5px; */
+  }
+}
+@media screen and (max-width: 767px) {
+  .offCanvas {
+    display: block;
+    padding-top: 40px;
+  }
+  .locationMessage button {
+    padding: 5px 7px;
+    font-size: 12px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.searchBar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.tabsContainer {
+  display: flex;
+  background: #f8f8f8;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.tab {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.requestsList {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardHeaderRightSide {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.status {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.instant {
+  background-color: #fee3e3;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
+.scheduled {
+  background-color: #dbeafe;
+  color: #1e45b2;
+  border: 1px solid #1e45b2;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.details {
+  display: flex;
+  margin-top: 15px;
+}
+
+.serviceTime,
+.dateLocation {
+  flex: 1;
+}
+
+.service,
+.time,
+.date,
+.location {
+  margin-top: 5px;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 15px;
+}
+
+.acceptBtn,
+.rejectBtn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.acceptBtn {
+  background: #37b38b;
+  color: white;
+  border: none;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+}
+.acceptBtn:hover {
+  background: #339475;
+}
+
+.rejectBtn {
+  background: white;
+  color: red;
+  border: 1px solid red;
+  transition: all 0.3s ease;
+}
+.rejectBtn:hover {
+  background: #f6d0d09a;
+}
+
+.noRequests {
+  text-align: center;
+  font-size: 18px;
+  color: #ff0000;
+  padding: 20px;
+  border: 1px solid #e2e2e2;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+
+@media screen and (max-width: 430px) {
+  .details {
+    flex-direction: column;
+  }
+  .tabsContainer {
+    font-size: 13px;
+  }
+  .container {
+    padding: 0px;
+  }
+  .details {
+    margin-top: 0;
+  }
+  .buttons{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .cardHeader {
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 2px;
+  }
+  .cardHeaderRightSide {
+    font-size: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    font-size: 15px;
+    margin-bottom: -7px;
+    /* padding-left: 35px; */
+  }
+  .status {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0px;
+    padding: 2px 8px; 
+    border-radius: 20px;
+  }
+  /* .instant{
+    padding: 0;
+  } */
+
+  .name {
+    font-size: 13px;
+  }
+}
+
+.locationMessage {
+  background-color: #fffbeb;
+  color: #ad5219;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  /* text-align: center; */
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #fde68a;
+}
+.selectLocationBtn {
+  background-color: #f49d0b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.selectLocationBtn:hover {
+  background-color: #e68900;
+}

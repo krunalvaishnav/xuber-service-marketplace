@@ -1,0 +1,412 @@
+.signin_form_container {
+  max-width: 700px;
+  padding: 30px 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: white;
+}
+.signup_form_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 130px;
+  /* height: 100vh; Full screen height */
+  /* background-color: rgba(0, 0, 0, 0.1); Light background for contrast */
+}
+
+.signupSuccessfullyToken {
+  color: #28ca97;
+  font-size: 16px;
+  text-align: left;
+}
+.blank_message {
+  color: red;
+  font-size: 14px;
+  text-align: left;
+}
+.signUpPara {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin-bottom: 18px;
+}
+.form_group {
+  /* margin: 10px 0px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .form_group img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  } */
+
+.form_group input[type="text"],
+.form_group input[type="email"],
+.form_group input[type="password"] {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  /* background: #FCFCFC; */
+}
+.boxImageUserName {
+  background-image: url("../Assets/User.png");
+}
+.boxImageEmail {
+  background-image: url("../Assets/Email.png");
+}
+.boxImagePassword {
+  background-image: url("../Assets/Password.png");
+}
+.boxImageConfirmPassword {
+  background-image: url("../Assets/Password.png");
+}
+
+.boxImageUserName,
+.boxImageEmail,
+.boxImagePassword,
+.boxImageConfirmPassword {
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+.forgotPassword_section {
+  margin-top: 30px;
+  margin-bottom: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+  /* border: 1px solid red; */
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #a29e9e;
+  margin-right: 10px;
+}
+/* .remember_me {
+    text-align: left;
+    margin-bottom: 10px;
+  } */
+
+.forgot_password {
+  cursor: pointer;
+}
+
+.buttonRegister,
+.buttonCreateAccount {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #ddd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.disabledButton {
+  cursor: "not-allowed";
+}
+
+.buttonRegister {
+  background-color: #37b38b;
+}
+
+.buttonCreateAccount {
+  background: #000;
+}
+
+.orOption {
+  margin: 10px 0px;
+}
+.buttonRegister:hover {
+  background-color: #28ca97;
+}
+.buttonCreateAccount:hover {
+  background-color: #3e3b3b;
+}
+
+.note_password span {
+  font-size: 18px;
+  color: rgb(255, 60, 0);
+}
+.note_password {
+  color: #565958;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* login Styles */
+
+/* #topbodyContainer {
+  padding: 30px 40px 50px 40px;
+} */
+
+
+
+.firstParaService {
+  color: #000;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  line-height: 90px;
+}
+.firstParaService span {
+  color: #37b38b;
+  font-weight: 900;
+}
+
+.secondParaDriveXuber {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  word-spacing: 2px;
+}
+
+.first_div_col1_image {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1400px) {
+  .firstParaService {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .secondParaDriveXuber {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .firstParaService {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .secondParaDriveXuber {
+    font-size: 20px;
+  }
+  /* .forgotPassword_section{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items:flex-start;
+      gap: 20px;
+    } */
+}
+
+@media only screen and (max-width: 991px) {
+  #topbodyContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+  }
+}
+@media only screen and (max-width: 563px) {
+  #topbodyContainer {
+    padding: 20px;
+  }
+  .firstParaService {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .secondParaDriveXuber {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .forgotPassword_section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  /* form */
+
+  .signin_form_container {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .signInPara {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .form_group img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .forgotPassword_section {
+    margin-top: 30px;
+    margin-bottom: 42px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+    /* border: 1px solid red; */
+  }
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #a29e9e;
+    margin-right: 10px;
+  }
+
+  .buttonLogin,
+  .buttonCreateAccount {
+    padding: 15px;
+    font-size: 20px;
+  }
+  .col2 {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+  }
+  .col1 {
+    margin-bottom: 20px;
+  }
+
+  .boxImageUserName,
+  .boxImageEmail,
+  .boxImagePassword,
+  .boxImageConfirmPassword {
+    background-size: 25px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #topbodyContainer {
+    padding: 10px;
+    /* border: 1px solid red; */
+  }
+  /* .col2{
+        border: 1px solid red;
+        align-items: first baseline;
+        
+      } */
+
+  .firstParaService {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .secondParaDriveXuber {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .forgotPassword_section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  /* form */
+
+  .signin_form_container {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .signInPara {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  /* .form_group img {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+      } */
+
+  .form_group input[type="text"],
+  .form_group input[type="email"],
+  .form_group input[type="password"] {
+    width: 100%;
+    height: 60px;
+    padding-left: 40px;
+    font-size: 16px;
+  }
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #a29e9e;
+    margin-right: 10px;
+  }
+
+  .buttonRegister,
+  .buttonCreateAccount {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .firstParaService {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  .secondParaDriveXuber {
+    line-height: 30px;
+  }
+  .signUpPara {
+    font-size: 20px;
+  }
+}

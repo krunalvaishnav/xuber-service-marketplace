@@ -1,0 +1,348 @@
+.container {
+  display: flex;
+  height: 100vh;
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: #e8ebf0;
+  /* padding: 20px; */
+  overflow: auto;
+}
+
+.tableDiv {
+  padding: 20px;
+}
+.table h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.table {
+  width: 100%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: auto;
+  margin-top: 65px;
+}
+.footer {
+  margin-top: auto;
+}
+
+/* --------------------------------------------- */
+/* .statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+ 
+} */
+.statsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0px 10px 10px 10px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  max-width: 1400px; /* Adjust width as needed */
+  margin: auto;
+}
+
+.statCard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.iconContainer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+  margin-right: 15px;
+  /* color: #000000; */
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+.value {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 1270px) {
+  .statsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1018px) {
+  .statsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 532px) {
+  .statsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* -------------------------------------------- */
+.table3 {
+  width: 100%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: auto;
+  margin-top: 10px;
+}
+.table3 h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mapContiner {
+  max-width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------ */
+.manyTable {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 15px; */
+  flex-wrap: wrap;
+}
+.table2 {
+  width: 49.5%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.table2 h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  /* margin-bottom: 50px; */
+  margin-top: 20px;
+}
+
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+td {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .manyTable {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tableContainer {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .userTable {
+    min-width: 600px;
+  }
+}
+
+/* -------------------------------------------- */
+
+.manyTable4 {
+  display: flex;
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+  flex-wrap: wrap;
+}
+
+.table4 {
+  width: 50%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.table4 h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  /* margin-bottom: 50px; */
+  margin-top: 20px;
+}
+
+.userTable4 {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  min-width: 600px;
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+td {
+  color: #555;
+}
+
+@media (max-width: 1250px) {
+  .manyTable4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table4 {
+    width: 100%;
+  }
+}
+/* @media (max-width: 768px) {
+  .manyTable4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table4 {
+    width: 100%;
+  }
+} */
+
+@media (max-width: 480px) {
+  .tableContainer {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .userTable4 {
+    min-width: 600px;
+  }
+}
+
+/* ------------------------------------------------------------ */
+
+.manyTable5 {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 15px; */
+  flex-wrap: wrap;
+}
+
+.table5 {
+  width: 49.5%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.table5 h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .manyTable5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table5 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+ 
+}

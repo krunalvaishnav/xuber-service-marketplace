@@ -1,0 +1,55 @@
+.fullComponent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.mainDiv {
+  padding: 150px 0px;
+  gap: 20px;
+  align-items: top;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.offCanvas {
+  display: none;
+  flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard {
+    display: none;
+  }
+  .mainDiv {
+    padding: 70px 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .offCanvas {
+    display: block;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 0px;
+  }
+}
+
+.table {
+  width: 100%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: auto;
+  /* margin-top: 65px; */
+  /* padding: 20px; */
+}
+.table thead th {
+  padding: 12px 8px !important;
+  font-size: 13px !important;
+  background-color: #f0f0f0;
+}

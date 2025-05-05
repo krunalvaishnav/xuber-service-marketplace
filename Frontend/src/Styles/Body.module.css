@@ -1,0 +1,235 @@
+.bodyContainer{
+    padding-top: 100px;
+   
+    
+}
+
+.rightDivImage{
+        width: 93%;
+        height: auto;
+}
+.get_there{
+    color: #37B38B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 85px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.belongs_to_you{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top:10px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+
+.horizontal_line{
+    width: 80%;
+    height: 2px;
+    background: #E3E3E3;
+    margin:  0px auto 40px auto;
+    /* border: 1px solid red; */
+}
+
+.signUpDivContainer{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.signUpDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    /* border: 1px solid red; */
+}
+.pen_logo_Image{
+    width: 63px;
+    height: 63px;
+}
+.get_a_service , .provide_a_service{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signUpGetter, .signUpProvider{
+    width: 229.167px;
+    height: 50px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signUpGetter{
+    background: #37B38B;
+}
+.signUpProvider{
+    background: #000;
+}
+
+
+
+.download_the_app, .download_the_app_right{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+.playStore_div, .playStore_div_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.storeImage{
+    width: 150px;
+    height: 44.702px;
+    cursor: pointer;
+}
+
+#playstore{
+        margin-bottom: 63px;
+}
+
+/* .col1, .col2,.rightDivImage{
+    border: 1px solid red;
+} */
+
+.col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media Queries */
+@media only screen and (max-width:1400px){
+    .signUpDivContainer{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }
+    
+}
+
+@media only screen and (max-width:1150px){
+    .get_there{
+        font-size: 50px;
+        margin-top: 60px;
+        
+    }
+    
+    .belongs_to_you{
+        font-size: 52px;
+        margin-top:10px;
+        margin-bottom: 30px;
+    }
+    
+    .get_a_service , .provide_a_service{
+        font-size: 22px;
+       
+    }
+    .signUpGetter, .signUpProvider{
+    width:180px;
+    font-size: 20px;
+    
+
+    }
+
+}
+@media only screen and (max-width:991px) {
+    .provider_store{
+        margin-top: 50px;
+    }
+     .rightDivImage{
+        margin-top: -30px;
+        width: 80%;
+    }
+
+
+}
+@media only screen and (max-width:690px) {
+    .download_the_app, .download_the_app_right{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .signUpDivContainer{
+        
+        display: grid;
+       
+    }
+    .signUpDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        /* border: 1px solid red; */
+    }
+    .playStore_div, .playStore_div_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (max-width:380px) {
+    .get_there{
+        font-size: 40px;
+        margin-top: 30px;
+        
+    }
+    
+    .belongs_to_you{
+        font-size: 42px;
+        margin-top:10px;
+        margin-bottom: 30px;
+    }
+    .rightDivImage{
+        margin-top: 0px;
+        width: 70%;
+    }
+}
