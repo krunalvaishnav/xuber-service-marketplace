@@ -1,0 +1,23 @@
+.nav {
+  display: block;
+  background-color: #f7f7f7;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.offCanvas {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .offCanvas {
+    display: block;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}

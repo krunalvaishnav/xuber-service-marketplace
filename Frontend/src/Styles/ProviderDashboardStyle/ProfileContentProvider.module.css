@@ -1,0 +1,137 @@
+.fullComponent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainDiv {
+  padding: 150px 0px;
+  gap: 20px;
+  align-items: top;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+/* Parent container for form groups in a row */
+/* .nav {
+    padding: 5px 20px;
+  } */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* padding-left: 5px; */
+}
+
+.boxImageUserName,
+.boxImagePassword {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  /* margin-bottom: 17px; */
+  margin-top: 4px;
+}
+
+/* .upload_label {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+} */
+
+.hidden_input {
+  display: block;
+  margin-bottom: 3px;
+  padding: 8px;
+  font-size: 11px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.file_name {
+  font-size: 14px;
+  color: #616161;
+  margin-block: auto;
+}
+
+.blank_message {
+  color: red;
+  /* font-size: 12px;
+  margin-top: 4px; */
+}
+.label {
+  margin-top: 15px;
+}
+
+.buttonEdit {
+  width: 100%;
+  margin: 15px 0px;
+  border: none;
+  background-color: #37b38b;
+  border-radius: 4px;
+  color: white;
+  height: 50px;
+  /* float: left; */
+}
+
+.buttonEdit:hover {
+  background-color: #41aa89;
+}
+.footer {
+  margin-top: auto;
+}
+
+.offCanvas {
+  display: none;
+  flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard {
+    display: none;
+  }
+  .mainDiv {
+    padding: 70px 20px;
+    font-size: 12px;
+  }
+  .boxImageUserName,
+  .boxImagePassword {
+    padding: 8px;
+    font-size: 12px;
+    height: 34px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    /* margin-bottom: 17px; */
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offCanvas {
+    display: block;
+    padding-top: 40px;
+  }
+
+  .blank_message {
+    color: red;
+  }
+}

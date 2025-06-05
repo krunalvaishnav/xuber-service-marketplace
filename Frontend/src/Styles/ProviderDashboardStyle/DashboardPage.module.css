@@ -1,0 +1,216 @@
+.fullComponent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .footer {
+  margin-top: auto;
+} */
+.mainDiv {
+  padding: 150px 0px;
+  gap: 20px;
+  align-items: top;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+  width: 90%;
+  max-width: 950px;
+  /* min-height: 70%; */
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* overflow: auto; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #37b38b;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #37b38b;
+  padding-bottom: 5px;
+  max-width: 135px;
+  /* text-align: center; */
+}
+
+.contentBox {
+  width: 100%;
+  height: 350px;
+  background-color: #4be0ef;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.online {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #37b38b;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.online:hover {
+  background-color: #2f9c73;
+}
+
+.offline {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #b33737;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.offline:hover {
+  background-color: #d03e3e;
+}
+
+.offlineHeader {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc3545;
+  margin-bottom: 10px;
+}
+.onlineHeader {
+  font-size: 24px;
+  font-weight: bold;
+  color: #37b38b;
+  margin-bottom: 10px;
+}
+
+.offlineMessage {
+  color: #6c757d;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 10px 10px 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard {
+    display: none;
+  }
+  .mainDiv {
+    padding: 70px 20px;
+    font-size: 12px;
+  }
+
+  /* .offCanvas {
+    display: block;
+    padding: 40px 10px 0 0;
+  } */
+
+  .container {
+    margin-top: 40px;
+    padding: 8px;
+    width: 95%;
+    min-height: auto;
+  }
+
+  .header {
+    font-size: 17px;
+    border-bottom: 2px solid #37b38b;
+  }
+
+  .contentBox {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 14px;
+    /* padding-bottom: 4px; */
+    width: 107px;
+  }
+
+ 
+  .container {
+    height: 460px;
+    padding: 5px;
+    margin: 0 0 0 7px;
+  }
+
+  .button {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .offlineMessage{
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    height: 390px;
+    padding: 5px;
+    margin: 0 0 0 7px;
+  }
+
+  .header {
+    font-size: 12px;
+    width: 92px;
+  }
+
+  .button {
+    padding: 6px;
+    font-size: 10px;
+  }
+  .offlineMessage {
+    font-size: 12px;
+  }
+}
+
+.loadingContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(226, 225, 225, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loadingDiv {
+  text-align: center;
+}
+
+.loadingImage {
+  width: 100%;
+  height: 100%;
+}

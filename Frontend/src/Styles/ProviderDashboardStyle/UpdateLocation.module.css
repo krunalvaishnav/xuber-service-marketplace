@@ -1,0 +1,87 @@
+.fullComponent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainDiv {
+  padding: 150px 0px;
+  gap: 20px;
+  align-items: top;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.locationSerch label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+.mapSection {
+  flex: 1;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.locationSerch input {
+  width: 100%;
+}
+
+.buttonEdit {
+  margin: 15px 0px;
+  border: none;
+  background-color: #37b38b;
+  border-radius: 4px;
+  color: white;
+  height: 50px;
+  float: left;
+  width: 48%;
+  font-weight: 600;
+}
+
+.buttonEdit:hover {
+  background-color: #41aa89;
+}
+
+.offCanvas {
+  display: none;
+  flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard {
+    display: none;
+  }
+  .mainDiv {
+    padding: 70px 20px;
+    font-size: 12px;
+  }
+  .buttonEdit {
+    width: 100%; 
+    margin: 10px 0;
+  }
+  .mapSection {
+    height: 300px; /* Reduce map height for better mobile display */
+  }
+}
+@media screen and (max-width: 767px) {
+  .offCanvas {
+    display: block;
+    padding-top: 40px;
+  }
+
+  .locationSerch label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,53 @@
+20/01 - 24/01
+20-> setup the demo project like crud operation making ui for the product using ejs
+21-> add item and this is show on the ui also image is also add in this 
+22-> edit and delete this item and also this is update the mongodb database image is also change 
+23-> use jquery datatable for the ui item listing (learn jQuery and sql crud query)
+24-> convert the database mongodb to MySQL and add item
+
+
+
+27/01 - 31/01
+27-> edit and delete the item 
+28-> make a full stack complete project start setup the xuber project make a all folder and write a simple flow existing database setup on my local system under stand this existing database
+29-> main dashboard make a ui for the signup for the user side  also 
+30-> make a signin for user dashboard and signin and signup for the provider dashboard
+31-> extra work  Webtown and PhpMyAdmin for the backup of the company early websites and wordpress update and php version update (15 website)
+
+
+03/02 - 07/02
+3-> Build Backend for Sign-in & Sign-up pages for UrbanClap (both User & Provider sides).
+4-> - Forget password function for user and provider both side.
+- User dashboard - Change Password page
+5-> User dashboard - Change password and Navbar and Dashboard page 
+6->  User dashboard - Dashboard page data fetching and style.
+7-> user Dashboard Page Request a Service Function
+
+
+10/02 - 14/02
+10-> user Dashboard Page Request a Service Function 
+11-> In Dashboard Page Request Service Function some changes.
+-> Implement "My Requests" Page:
+- Service Request Data Fatching.
+-Apply filter for the user request.
+-Implement a User Request Detail Modal on "View" Button Click.
+12->-> Implement "My Requests" Page:
+-Implement a User Request cancel function
+-Implement a User Request page style (CSS).
+-Convert normal table to datatable format in "My Request" page.
+13-> Implement "My Requests" Page:
+-Convert normal table to data table format in "My Request" page.
+-Add a rating system on the user request page.
+14->- datatable in "My Request" page for user side 
+- Provider data fatching backend part.
+
+
+17/02 - 21/02
+17-> - Implement Navbar, Provider Profile Page, and Side Dashboard for Provider Panel
+18-> --> Update Location & Change password & Dashboard for Provider Panel.
+19->Partner Earnings (UI) & Complete Dashboard for Provider Panel 
+20-> Modify The Existing Code for Optimization
+21-> Admin Panel Setup & Sign-In & Sign-Up Functionality
+
+
+24/02 - 28/02

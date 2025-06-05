@@ -1,0 +1,161 @@
+
+.container {
+    max-width: 760px;
+    /* height: 729px; */
+    margin: 57px auto 200px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000;
+     font-family: Inter;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     background-color: white;
+     opacity: default;
+  }
+  
+  .signInPara{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .form_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .form_group input[type="password"] {
+     width: 100%;
+     height: 70px;
+     border: 1px solid #DDD;
+     margin-bottom: 20px;
+     
+     
+  }
+  .boxImagePassword{
+    background-image: url('../Assets/Password.png');
+  }
+  
+  .boxImagePassword{
+    background-position: 10px center ; 
+    background-repeat: no-repeat;
+    padding-left:50px;
+    
+  
+  } 
+  .buttonLogin{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #DDD;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color:#37B38B;
+  }
+  .buttonLogin:hover{
+    background-color:#28ca97;
+  }
+  .blank_message{
+    text-align: left;
+    color: red;
+    font-size: 16px;
+  }
+
+  .note_password span{
+    font-size:18px ;
+    color: rgb(255, 60, 0);
+  }
+  .note_password{
+    color: #565958;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  
+  @media only screen and (max-width:563px)
+{
+
+  .container {
+     padding: 20px;
+     font-size: 20px;
+     /* margin: 30px;
+     */
+  }
+  .form_group input[type="password"] {
+   
+    height: 50px;
+    
+    
+ }
+  
+  .signInPara{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  
+  .buttonLogin{
+    padding: 15px;
+    font-size: 20px;
+  }
+.boxImagePassword{
+    background-size: 25px;
+    padding-left: 40px;
+
+  } 
+  
+}
+
+
+
+@media screen and (max-width:450px){
+  
+   .container {
+       padding: 20px;
+       font-size: 18px;
+      
+    }
+    
+    .signInPara{
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    
+    .form_group img {
+      width: 18px;
+      height: 18px;
+      margin-right: 5px;
+    }
+
+
+.form_group input[type="password"] {
+   width: 100%;
+   height: 60px;
+   padding-left: 40px;
+}
+    
+    .buttonRegister{
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    
+}

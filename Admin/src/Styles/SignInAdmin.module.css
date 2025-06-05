@@ -1,0 +1,141 @@
+.signup_form_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.logo_wrapper {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
+}
+
+.company_logo {
+  max-width: 220px;
+  height: auto;
+}
+
+.signup_form_wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.signin_form_container {
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px); 
+  background: rgba(215, 215, 215, 0.2);
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+.signInPara {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input fields with stylish background */
+.form_group input {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form_group input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.blank_message {
+  color: #ff0000;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 5px;
+}
+.forgotPassword_section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.forgot_password:hover {
+  cursor: pointer;
+}
+.remember_me input {
+  margin-right: 5px;
+}
+.remember_me :hover {
+  cursor: pointer;
+}
+.buttonLogin {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: #9c43f5;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonLogin:hover {
+  background: linear-gradient(135deg, #b773f9, #8000ff);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 968px) {
+  .signin_form_container {
+    max-width: 450px;
+    padding: 30px;
+    /* backdrop-filter: blur(1px); 
+    background: rgba(255, 255, 255, 0.3);  */
+  }
+  .company_logo {
+    max-width: 220px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signin_form_container {
+    max-width: 95%;
+    padding: 25px;
+    /* backdrop-filter: blur(1px); 
+    background: rgba(255, 255, 255, 0.3);  */
+  }
+  .company_logo {
+    max-width: 150px;
+    height: auto;
+  }
+  .signin_form_wrapper{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .forgotPassword_section{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,201 @@
+.container {
+  display: flex;
+  height: 100vh;
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: #e8ebf0;
+  /* padding: 20px; */
+  overflow: auto;
+}
+.tableDiv {
+  padding: 20px;
+}
+.table h6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.table {
+  width: 100%;
+  padding: 9.75px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  overflow: auto;
+  
+  margin-top: 65px;
+}
+.footer {
+  margin-top: auto;
+}
+
+.tableDiv {
+  margin-bottom: 20px;
+}
+
+.serviceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.serviceTable th,
+.serviceTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.serviceTable th {
+  background-color: #f0f0f0;
+}
+
+.serviceTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+.formGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.formGroup select {
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+  outline: none;
+}
+
+.addButton {
+  background-color: #4d79f6;
+  color: white;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+.addButton:hover {
+  background-color: #3654b8;
+}
+/* .actionButton{
+  display: flex;
+}
+.actionButton button{
+  border: none;
+} */
+
+.ASSESSING {
+  background-color: #ffa41c;
+  width: 126px;
+  padding: 6px 18px 4px 15px;
+  color: #ffffff;
+  /* font-weight: bold;  */
+  text-align: center;
+  /* border-radius: 4px;  */
+}
+.ASSESSING svg {
+  margin-right: 5px;
+}
+.ACTIVE svg {
+  margin-right: 5px;
+}
+
+.ACTIVE {
+  background-color: #37b38b;
+  /* background-color: #ffa41c; */
+  width: 126px;
+  padding: 6px 18px 4px 15px;
+  color: #ffffff;
+  /* font-weight: bold;  */
+  text-align: center;
+  /* border-radius: 4px;  */
+}
+
+.naStatus{
+  background-color: #dc3545;
+  /* background-color: #ffa41c; */
+  /* width: 100px; */
+  padding: 6px 13px 6px 13px;
+  color: #ffffff;
+  /* font-weight: bold;  */
+  text-align: center;
+
+}
+
+
+.viewButton {
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* border-radius: 4px; */
+}
+
+.viewButton {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.table th,
+.table td {
+  /* padding: 10px; */
+  text-align: left;
+  border: 1px solid #ddd;
+  
+}
+
+
+.actionButton {
+  display: flex;
+  gap: 10px;
+  /* justify-content: flex-end;  */
+
+}
+
+/* Ensure buttons take minimal space */
+.actionButton button {
+  border: none;
+  /* padding: 5px 10px; */
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+/* .statusButton button {
+  min-width: 100px;
+} */
+@media screen and (max-width: 767px) {
+  .formGroup select {
+    padding: 10px;
+  }
+
+  .addButton {
+    padding: 10px 20px;
+  }
+  .table {
+    font-size: 12px;
+  }
+}
