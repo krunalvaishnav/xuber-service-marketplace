@@ -1,4 +1,4 @@
-# XUBER
+# XUBER - A Service Marketplace Inspired by UrbanClap
 
 **XUBER** is a full-stack service marketplace platform inspired by Urban Company. The platform is designed with **three separate panels** — **Admin**, **User (Frontend)**, and **Service Provider (Frontend)** — each providing dedicated features and interfaces.
 
