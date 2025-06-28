@@ -1,0 +1,74 @@
+{
+  "name": "xuber-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start-admin": "cd admin && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "start-backend": "cd backend && npm run server",
+    "start": "concurrently \"npm run start-admin\" \"npm run start-frontend\" \"npm run start-backend\""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.8",
+    "concurrently": "^8.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.1",
+    "datatables.net-buttons": "^3.2.2",
+    "datatables.net-buttons-dt": "^3.2.2",
+    "datatables.net-dt": "^2.2.2",
+    "datatables.net-responsive": "^3.0.4",
+    "date-fns": "^4.1.0",
+    "daterangepicker": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "moment": "^2.30.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.8.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^6.29.0",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^11.0.3",
+    "uuid": "^11.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
