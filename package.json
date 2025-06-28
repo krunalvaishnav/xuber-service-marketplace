@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start-admin": "cd admin && npm start",
+    "build": "react-scripts build",
     "start-frontend": "cd frontend && npm start",
     "start-backend": "cd backend && npm run server",
     "start": "concurrently \"npm run start-admin\" \"npm run start-frontend\" \"npm run start-backend\""
